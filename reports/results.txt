@@ -1,0 +1,39 @@
+Data file   Our solution      Optimal solution      Error, %       Solve time, ms 
+
+cap132      891395            851495                5              13             
+cap133      952245            893077                7              17             
+cap131      820134            793440                3              11             
+cap124      998813            N / A                 N / A          12             
+cap134      998813            928942                8              12             
+cap121      820134            N / A                 N / A          11             
+cap123      952245            N / A                 N / A          13             
+cap122      891395            N / A                 N / A          15             
+cap71       932616            932616                0              0              
+cap64       1.03498e+06       N / A                 N / A          1              
+cap72       977800            977799                0              0              
+cap73       1.01248e+06       1010641               0              0              
+cap63       1.01248e+06       N / A                 N / A          0              
+cap62       977800            N / A                 N / A          0              
+cap74       1.03498e+06       1034977               -0             0              
+cap61       932616            N / A                 N / A          0              
+cap93       895027            N / A                 N / A          2              
+cap44       1.03498e+06       N / A                 N / A          0              
+cap51       1.01248e+06       N / A                 N / A          1              
+cap92       854704            N / A                 N / A          2              
+cap84       928941            N / A                 N / A          2              
+cap91       797509            N / A                 N / A          1              
+cap81       797509            N / A                 N / A          1              
+cap42       977800            N / A                 N / A          0              
+cap43       1.01248e+06       N / A                 N / A          1              
+cap94       928941            N / A                 N / A          2              
+cap82       854704            N / A                 N / A          2              
+cap41       932616            N / A                 N / A          0              
+cap83       895027            N / A                 N / A          2              
+cap113      952245            N / A                 N / A          13             
+cap112      891395            N / A                 N / A          13             
+cap104      928941            928942                -0             2              
+cap111      820134            N / A                 N / A          13             
+cap101      797509            796648                0              2              
+cap114      998813            N / A                 N / A          13             
+cap102      854704            854704                -0             2              
+cap103      895027            893782                0              2              
