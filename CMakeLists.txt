@@ -3,12 +3,11 @@ project(SPLP)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(BOOST_ROOT "/Users/klubidorka/Desktop/MIPT-6sem/ACO/boost_1_57_0/")
+set(SOURCE_EXE src/main.cpp)
 
-find_package(Boost 1.57.0)
+set(SOURCE_LIB src/splp.cpp src/splp.h src/splp_solver.cpp src/splp_solver.h)
+add_library(lib STATIC ${SOURCE_LIB})
 
-if(NOT Boost_FOUND)
-    message(FATAL_ERROR "Could not find boost!")
-endif()
+add_executable(SPLP ${SOURCE_EXE})
 
-add_executable(SPLP main.cpp splp.cpp splp.h splp_solver.cpp splp_solver.h)
+target_link_libraries(SPLP lib)
