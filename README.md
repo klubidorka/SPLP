@@ -1,2 +1,2 @@
 # SPLP
-Euristic Simple Plant Location Problem solution
+Heuristic Simple Plant Location Problem solution
